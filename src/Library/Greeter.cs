@@ -4,12 +4,12 @@ namespace Library
 {
     public class Greeter
     {
-        private Greeter()
+        public Greeter()
         {
             // Intentionally left blank
         }
 
-        private static Greeter instance;
+       /* private static Greeter instance=null;
 
         public static Greeter Instance
         {
@@ -22,7 +22,7 @@ namespace Library
 
                 return instance;
             }
-        }
+        }*/
 
         public void SayHiToTheWorld()
         {
